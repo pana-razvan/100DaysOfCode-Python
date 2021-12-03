@@ -1,0 +1,20 @@
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+#Write your code below this line 👇
+
+#Welcome line goes here
+print("Welcome to the tip calculator!")
+#Request user to input the total bill value, i.e. "124.56", and covert that to a float number.
+bill = float(input("What was the total bill? $"))
+#Request user to input the desired tip percentage, i.e. "12", and convert that to a integer (OPTIONAL)
+tip = int(input("How much tip would you like to give? 10, 12, or 15? "))
+#Request user to input the number of people that split the bill, i.e. "7" and convert that to a interger
+people = int(input("How many people to split the bill? "))
+#Calculate total bill value including tip and divide by number of people
+total_bill = bill * (1 + tip / 100)
+pay_ammount = total_bill / people
+#Round the result that to 2 decinals and print the result
+result = "{:.2f}".format(pay_ammount)
+print(f"Each person shoud pay: ${result}")
