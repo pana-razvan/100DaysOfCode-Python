@@ -1,0 +1,21 @@
+#try this code on https://reeborg.ca/reeborg.html
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+turned_right = 0
+
+while front_is_clear() and not wall_on_right():
+    move()
+
+while not at_goal():
+    if right_is_clear() and turned_right != 2:
+        turn_right()
+        turned_right += 1
+        move()
+    elif front_is_clear():
+        move()
+        turned_right = 0
+    else:
+        turn_left()
