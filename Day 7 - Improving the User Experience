@@ -1,0 +1,67 @@
+import random
+from replit import clear
+from hangman_words import word_list
+from hangman_art import logo, stages
+
+chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
+end_of_game = False
+lives = 6
+guessed_correct_letters = []
+guessed_wrong_letters = []
+guess = ""
+display = []
+for _ in range(word_length):
+    display += "_"
+
+while not end_of_game:
+    print(logo)
+    print(f"{' '.join(display)}")
+    print(stages[lives])
+    print(f"So far, you guessed: {guessed_correct_letters}")
+    print(f"Letters not in word: {guessed_wrong_letters}")
+    
+    if guessed_correct_letters == guessed_wrong_letters:
+        print(f'Pssst, the solution is {chosen_word}.')
+
+    guess = input("Guess a letter: ")
+    while (guess in guessed_correct_letters) or (guess in guessed_wrong_letters):
+        print("You already guessed this letter. Try again.")
+        guess = input("Guess a letter: ")
+
+    if (guess not in chosen_word) and (guess not in guessed_wrong_letters):
+        lives -= 1
+        print(f"Letter {guess} is not in the word. You lose a life. You have {lives} life remaning")
+        input()
+        guessed_wrong_letters += guess
+    elif (guess in chosen_word) and (guess not in guessed_correct_letters):
+        guessed_correct_letters += guess 
+    clear()
+
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter        
+    
+    if lives == 0:
+        end_of_game = True
+        print(logo)
+        print(f"{' '.join(display)}")
+        print(stages[lives])
+        print(f"So far, you guessed: {guessed_correct_letters}")
+        print(f"Letters not in word: {guessed_wrong_letters}")
+        print(f"Guess a letter: {guess}")
+        print(f"Letter {guess} is not in the word. You lose a life. You have {lives} life remaning")
+        print("You lose.")
+   
+    if "_" not in display:
+        end_of_game = True
+        print(logo)
+        print(f"{' '.join(display)}")
+        print(stages[lives])
+        print(f"So far, you guessed: {guessed_correct_letters}")
+        print(f"Letters not in word: {guessed_wrong_letters}")
+        print("You win.")
+    
+    
+    
