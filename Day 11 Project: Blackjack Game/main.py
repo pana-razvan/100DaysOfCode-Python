@@ -2,7 +2,7 @@ from art import logo
 import random
 from replit import clear
 
-cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 5, 5, 5, 5]
 
 def has_blackjack(player):
   if sum(player) == 21 and len(player) == 2:
@@ -37,14 +37,18 @@ def play():
   else:
     game_on = True
 
-  while input("Type 'y' to get another card, type 'n' to pass: ") == "y"
+  while game_on:
+    deal = input("Type 'y' to get another card, type 'n' to pass: ")
+    if deal == "y":
       user.append(random.choice(cards))
       calculate_score(user)
-      print(f"  Your cards: {user}, current score: {calculate_score(user)}")
-      print(f"  Computer's first card: {computer[0]}")
-      if calculate_score(user) > 21:
+      if calculate_score(user) >= 21:
         game_on = False
-    elif deal == "n": 
+      else:
+        print(f"  Your cards: {user}, current score: {calculate_score(user)}")
+        print(f"  Computer's first card: {computer[0]}")
+
+    elif deal == "n":
       while calculate_score(computer) < 17 and calculate_score(computer) < calculate_score(user):
         computer.append(random.choice(cards))
       game_on = False
@@ -53,21 +57,20 @@ def play():
   print(f"  Computer's final hand: {computer}, final score: {calculate_score(computer)}")
 
   if has_blackjack(computer):
-    print("You lose! Computer has BlackJack!") #Checked
+    print("\nYou lose! Computer has BlackJack!") #Checked
   elif has_blackjack(user):
-    print("BlackJack! You win!") #Checked
+    print("\nBlackJack! You win!") #Checked
   elif calculate_score(user) > 21:
-    print("You went over! You lose!") #Checked
+    print("\nYou went over! You lose!") #Checked
   elif calculate_score(computer) > 21:
-    print("Computer went over! You win!") #Checked
+    print("\nComputer went over! You win!") #Checked
   elif calculate_score(user) == calculate_score(computer):
-    print("Draw") #Checked
+    print("\nDraw") #Checked
   elif calculate_score(user) > calculate_score(computer):
-    print("You win!") #Checked
+    print("\nYou win!") #Checked
   elif calculate_score(user) < calculate_score(computer):
-    print("You lose!") #Checked
+    print("\nYou lose!") #Checked
 
-while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
+while input("\nDo you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
   clear()
   play()
-  
