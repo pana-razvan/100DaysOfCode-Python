@@ -7,7 +7,7 @@ import time
 MY_LAT = 44.4268
 MY_LONG = 26.1025
 EMAIL = "popescu.ionut.cel.mare@gmail.com"
-PASSWORD = "shl$p$CGl98Lv"
+PASSWORD = "<password_goes_here>"
 
 
 def iss_is_close_above():
