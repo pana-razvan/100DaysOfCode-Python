@@ -1,0 +1,377 @@
+{
+  'id': '065b25c34a8b0000da41d181_0|25c3065b4a8d0000f16e9dea_0',
+  'flyFrom': 'OTP',
+  'flyTo': 'CDG',
+  'cityFrom': 'Bucharest',
+  'cityCodeFrom': 'BUH',
+  'cityTo': 'Paris',
+  'cityCodeTo': 'PAR',
+  'countryFrom': {
+    'code': 'RO',
+    'name': 'Romania'
+  },
+  'countryTo': {
+    'code': 'FR',
+    'name': 'France'
+  },
+  'type_flights': [
+    'deprecated'
+  ],
+  'nightsInDest': 2,
+  'quality': 384.33297,
+  'distance': 1853.49,
+  'duration': {
+    'departure': 11400,
+    'return': 10500,
+    'total': 21900
+  },
+  'price': 239,
+  'conversion': {
+    'EUR': 239
+  },
+  'bags_price': {
+    '1': 97.5
+  },
+  'baglimit': {
+    'hand_height': 35,
+    'hand_length': 55,
+    'hand_weight': 10,
+    'hand_width': 20,
+    'hold_dimensions_sum': 158,
+    'hold_height': 52,
+    'hold_length': 78,
+    'hold_weight': 23,
+    'hold_width': 28,
+    'personal_item_height': 30,
+    'personal_item_length': 40,
+    'personal_item_weight': 2,
+    'personal_item_width': 15
+  },
+  'availability': {
+    'seats': 6
+  },
+  'routes': [
+    [
+      'OTP',
+      'CDG'
+    ],
+    [
+      'CDG',
+      'OTP'
+    ]
+  ],
+  'airlines': [
+    'AF',
+    '0B'
+  ],
+  'route': [
+    {
+      'id': '065b25c34a8b0000da41d181_0',
+      'combination_id': '065b25c34a8b0000da41d181',
+      'flyFrom': 'OTP',
+      'flyTo': 'CDG',
+      'cityFrom': 'Bucharest',
+      'cityCodeFrom': 'BUH',
+      'cityTo': 'Paris',
+      'cityCodeTo': 'PAR',
+      'airline': 'AF',
+      'flight_no': 1589,
+      'operating_carrier': 'AF',
+      'operating_flight_no': '1589',
+      'fare_basis': 'GS50BILG',
+      'fare_category': 'M',
+      'fare_classes': 'G',
+      'fare_family': '',
+      'return': 0,
+      'bags_recheck_required': False,
+      'vi_connection': False,
+      'guarantee': False,
+      'last_seen': '2022-01-20T01:54:21.000Z',
+      'refresh_timestamp': '1970-01-01T00:00:00.000Z',
+      'equipment': None,
+      'vehicle_type': 'aircraft',
+      'local_arrival': '2022-04-01T22:20:00.000Z',
+      'utc_arrival': '2022-04-01T20:20:00.000Z',
+      'local_departure': '2022-04-01T20:10:00.000Z',
+      'utc_departure': '2022-04-01T17:10:00.000Z'
+    },
+    {
+      'id': '25c3065b4a8d0000f16e9dea_0',
+      'combination_id': '25c3065b4a8d0000f16e9dea',
+      'flyFrom': 'CDG',
+      'flyTo': 'OTP',
+      'cityFrom': 'Paris',
+      'cityCodeFrom': 'PAR',
+      'cityTo': 'Bucharest',
+      'cityCodeTo': 'BUH',
+      'airline': '0B',
+      'flight_no': 106,
+      'operating_carrier': '',
+      'operating_flight_no': '',
+      'fare_basis': 'LGT07',
+      'fare_category': 'M',
+      'fare_classes': 'V',
+      'fare_family': '',
+      'return': 1,
+      'bags_recheck_required': False,
+      'vi_connection': False,
+      'guarantee': False,
+      'last_seen': '2022-01-20T08:44:59.000Z',
+      'refresh_timestamp': '2022-01-20T08:44:59.000Z',
+      'equipment': None,
+      'vehicle_type': 'aircraft',
+      'local_arrival': '2022-04-03T14:00:00.000Z',
+      'utc_arrival': '2022-04-03T11:00:00.000Z',
+      'local_departure': '2022-04-03T10:05:00.000Z',
+      'utc_departure': '2022-04-03T08:05:00.000Z'
+    }
+  ],
+  'booking_token': 'C_0B3QbpN9qolZ8XRY1SMQHXF8C4KjK0EKnHK-usIn072RRnQF01x4OFRWVL8wyXVad3NpbAp61kOAeb7zy0IEkpIvzcaFoS6PbV1iJ-Od8EX0vQvXF4Nf1VrJa9u-OJX_jk7oEH4j9wE00sE7wjZl0HnTt0HWEK2nK1AsAj8_7ZGDeX8CO69YG4BXdljteFV5d9JEaArv5ZxHMD5MTKlbuK9CmnMWXeK6VBguBH8sAyFeodW3n6xKVgYS_uc5rNkV3N5RFI9E3bb_loupwFbui-DZPq80V8TesSFEXgO2n_k2eGKbdkE1LUIPN-SXxsGgpOyVjy71O9hDJMcNppce6V2UbswtqTqe2o8qBe-Ca-TsAOhR0CbpDt-6h80_izC0ZEkUW6ttYhZLjaq_VFzoVN23RIJaJv6_TKdLvU4v6630ViarM0clsuCoTF6wr2u',
+  'deep_link': 'https://www.kiwi.com/deep?from=OTP&to=CDG&flightsId=065b25c34a8b0000da41d181_0%7C25c3065b4a8d0000f16e9dea_0&price=239&passengers=2&affilid=whitewolf1986flightsearch&lang=en&currency=EUR&booking_token=C_0B3QbpN9qolZ8XRY1SMQHXF8C4KjK0EKnHK-usIn072RRnQF01x4OFRWVL8wyXVad3NpbAp61kOAeb7zy0IEkpIvzcaFoS6PbV1iJ-Od8EX0vQvXF4Nf1VrJa9u-OJX_jk7oEH4j9wE00sE7wjZl0HnTt0HWEK2nK1AsAj8_7ZGDeX8CO69YG4BXdljteFV5d9JEaArv5ZxHMD5MTKlbuK9CmnMWXeK6VBguBH8sAyFeodW3n6xKVgYS_uc5rNkV3N5RFI9E3bb_loupwFbui-DZPq80V8TesSFEXgO2n_k2eGKbdkE1LUIPN-SXxsGgpOyVjy71O9hDJMcNppce6V2UbswtqTqe2o8qBe-Ca-TsAOhR0CbpDt-6h80_izC0ZEkUW6ttYhZLjaq_VFzoVN23RIJaJv6_TKdLvU4v6630ViarM0clsuCoTF6wr2u',
+  'tracking_pixel': '',
+  'facilitated_booking_available': True,
+  'pnr_count': 2,
+  'has_airport_change': False,
+  'technical_stops': 0,
+  'throw_away_ticketing': False,
+  'hidden_city_ticketing': False,
+  'virtual_interlining': True,
+  'transfers': [
+    
+  ],
+  'local_arrival': '2022-04-01T22:20:00.000Z',
+  'utc_arrival': '2022-04-01T20:20:00.000Z',
+  'local_departure': '2022-04-01T20:10:00.000Z',
+  'utc_departure': '2022-04-01T17:10:00.000Z'
+}
+
+id: 065b1cb24a9e0000d7c4644b_0|25c3065b4aa500004a5bb35c_0
+flyFrom: OTP
+flyTo: BVA
+cityFrom: Bucharest
+cityCodeFrom: BUH
+cityTo: Paris
+cityCodeTo: PAR
+countryFrom_code: RO
+countryFrom_name: Romania
+countryTo_code: FR
+countryTo_name: France
+nightsInDest: 7
+quality: 424.99964
+distance: 1890.93
+duration_departure: 11100
+duration_return: 10500
+duration_total: 21600
+price: 281
+conversion_EUR: 281
+bags_price_1: 125.2
+baglimit_hand_height: 40
+baglimit_hand_length: 55
+baglimit_hand_weight: 10
+baglimit_hand_width: 20
+baglimit_hold_dimensions_sum: 210
+baglimit_hold_height: 80
+baglimit_hold_length: 100
+baglimit_hold_weight: 20
+baglimit_hold_width: 30
+baglimit_personal_item_height: 30
+baglimit_personal_item_length: 40
+baglimit_personal_item_weight: 10
+baglimit_personal_item_width: 20
+availability_seats: 5
+routes_outbound_from: OTP
+routes_outbound_to: BVA
+routes_inbound_from: CDG
+routes_inbound_to: OTP
+airlines: 0B
+route_outbound_id: 065b1cb24a9e0000d7c4644b_0
+route_outbound_combination_id: 065b1cb24a9e0000d7c4644b
+route_outbound_flyFrom: OTP
+route_outbound_flyTo: BVA
+route_outbound_cityFrom: Bucharest
+route_outbound_cityCodeFrom: BUH
+route_outbound_cityTo: Paris
+route_outbound_cityCodeTo: PAR
+route_outbound_airline: W6
+route_outbound_flight_no: 3051
+route_outbound_operating_carrier:
+route_outbound_operating_flight_no:
+route_outbound_fare_basis: BREG
+route_outbound_fare_category: M
+route_outbound_fare_classes: B
+route_outbound_fare_family:
+route_outbound_return: 0
+route_outbound_bags_recheck_required: False
+route_outbound_vi_connection: False
+route_outbound_guarantee: False
+route_outbound_last_seen: 2022-01-20T10:43:18.000Z
+route_outbound_refresh_timestamp: 2022-01-20T10:43:18.000Z
+route_outbound_equipment: None
+route_outbound_vehicle_type: aircraft
+route_outbound_local_arrival: 2022-04-20
+route_outbound_utc_arrival: 2022-04-20
+route_outbound_local_departure: 2022-04-20
+route_outbound_utc_departure: 2022-04-20
+route_inbound_id: 25c3065b4aa500004a5bb35c_0
+route_inbound_combination_id: 25c3065b4aa500004a5bb35c
+route_inbound_flyFrom: CDG
+route_inbound_flyTo: OTP
+route_inbound_cityFrom: Paris
+route_inbound_cityCodeFrom: PAR
+route_inbound_cityTo: Bucharest
+route_inbound_cityCodeTo: BUH
+route_inbound_airline: 0B
+route_inbound_flight_no: 106
+route_inbound_operating_carrier:
+route_inbound_operating_flight_no:
+route_inbound_fare_basis: DLGT12
+route_inbound_fare_category: M
+route_inbound_fare_classes: R
+route_inbound_fare_family:
+route_inbound_return: 1
+route_inbound_bags_recheck_required: False
+route_inbound_vi_connection: False
+route_inbound_guarantee: False
+route_inbound_last_seen: 2022-01-19T14:20:05.000Z
+route_inbound_refresh_timestamp: 2022-01-19T14:20:05.000Z
+route_inbound_equipment: None
+route_inbound_vehicle_type: aircraft
+route_inbound_local_arrival: 2022-04-27
+route_inbound_utc_arrival: 2022-04-27
+route_inbound_local_departure: 2022-04-27
+route_inbound_utc_departure: 2022-04-27
+booking_token: COLvYlPpYen66NHOFUVBuoiGNK734TOx5UbOG50WSsfGoOmPmStYIQHkRz_1ayFJXR6oMjnavj4MnzaowGxcKVH9i5jwU54iGwLaP-ni1iJtW8KBiy6Kr3XMwIT4yeGfLR26bU1wB-dj8ab2WsDPmWC6XfVRnqbgWxpWTTwtwDNxn_lC2By-zsZAfTrKdJmpWmJfXGYupL5ljgmGfz7lT9fQlbB9eimR8cNM6ww4l-bl74b-2RYfrvJplcMD0NK9GrTnvPbsbuJ1q0O5OGmqytuYXGe0eRHURLYr-NM0gpTrlMVEyTYWuyoiL2-E3F5cagnNwRuJ91bHyr0ypi5BbefFURTE27w5w-mBqYRCOEyjKREO-8o8m7zaeJ2lWcx1xPtbcu0jrsZxZsTZ0ib4Qpi1Dn3mB_BTd-RkzBur_SOesBY966pFNFX3zbYHRrPDKFE480vC9VEb2xI0T0lsCVURidtKwlUK8GPFcfibsL2k=
+deep_link: https://www.kiwi.com/deep?from=OTP&to=BVA&flightsId=065b1cb24a9e0000d7c4644b_0%7C25c3065b4aa500004a5bb35c_0&price=281&passengers=2&affilid=whitewolf1986flightsearch&lang=en&currency=EUR&booking_token=COLvYlPpYen66NHOFUVBuoiGNK734TOx5UbOG50WSsfGoOmPmStYIQHkRz_1ayFJXR6oMjnavj4MnzaowGxcKVH9i5jwU54iGwLaP-ni1iJtW8KBiy6Kr3XMwIT4yeGfLR26bU1wB-dj8ab2WsDPmWC6XfVRnqbgWxpWTTwtwDNxn_lC2By-zsZAfTrKdJmpWmJfXGYupL5ljgmGfz7lT9fQlbB9eimR8cNM6ww4l-bl74b-2RYfrvJplcMD0NK9GrTnvPbsbuJ1q0O5OGmqytuYXGe0eRHURLYr-NM0gpTrlMVEyTYWuyoiL2-E3F5cagnNwRuJ91bHyr0ypi5BbefFURTE27w5w-mBqYRCOEyjKREO-8o8m7zaeJ2lWcx1xPtbcu0jrsZxZsTZ0ib4Qpi1Dn3mB_BTd-RkzBur_SOesBY966pFNFX3zbYHRrPDKFE480vC9VEb2xI0T0lsCVURidtKwlUK8GPFcfibsL2k=
+tracking_pixel:
+facilitated_booking_available: False
+pnr_count: 2
+has_airport_change: False
+technical_stops: 0
+throw_away_ticketing: False
+hidden_city_ticketing: False
+virtual_interlining: True
+local_arrival: 2022-04-20
+utc_arrival: 2022-04-20
+local_departure: 2022-04-20
+utc_departure: 2022-04-20
+
+print(f"id: {cheapest_flight.id}")
+print(f"flyFrom: {cheapest_flight.flyFrom}")
+print(f"flyTo: {cheapest_flight.flyTo}")
+print(f"cityFrom: {cheapest_flight.cityFrom}")
+print(f"cityCodeFrom: {cheapest_flight.cityCodeFrom}")
+print(f"cityTo: {cheapest_flight.cityTo}")
+print(f"cityCodeTo: {cheapest_flight.cityCodeTo}")
+print(f"countryFrom_code: {cheapest_flight.countryFrom_code}")
+print(f"countryFrom_name: {cheapest_flight.countryFrom_name}")
+print(f"countryTo_code: {cheapest_flight.countryTo_code}")
+print(f"countryTo_name: {cheapest_flight.countryTo_name}")
+print(f"nightsInDest: {cheapest_flight.nightsInDest}")
+print(f"quality: {cheapest_flight.quality}")
+print(f"distance: {cheapest_flight.distance}")
+print(f"duration_departure: {cheapest_flight.duration_departure}")
+print(f"duration_return: {cheapest_flight.duration_return}")
+print(f"duration_total: {cheapest_flight.duration_total}")
+print(f"price: {cheapest_flight.price}")
+print(f"conversion_EUR: {cheapest_flight.conversion_EUR}")
+print(f"bags_price_1: {cheapest_flight.bags_price_1}")
+print(f"baglimit_hand_height: {cheapest_flight.baglimit_hand_height}")
+print(f"baglimit_hand_length: {cheapest_flight.baglimit_hand_length}")
+print(f"baglimit_hand_weight: {cheapest_flight.baglimit_hand_weight}")
+print(f"baglimit_hand_width: {cheapest_flight.baglimit_hand_width}")
+print(f"baglimit_hold_dimensions_sum: {cheapest_flight.baglimit_hold_dimensions_sum}")
+print(f"baglimit_hold_height: {cheapest_flight.baglimit_hold_height}")
+print(f"baglimit_hold_length: {cheapest_flight.baglimit_hold_length}")
+print(f"baglimit_hold_weight: {cheapest_flight.baglimit_hold_weight}")
+print(f"baglimit_hold_width: {cheapest_flight.baglimit_hold_width}")
+print(f"baglimit_personal_item_height: {cheapest_flight.baglimit_personal_item_height}")
+print(f"baglimit_personal_item_length: {cheapest_flight.baglimit_personal_item_length}")
+print(f"baglimit_personal_item_weight: {cheapest_flight.baglimit_personal_item_weight}")
+print(f"baglimit_personal_item_width: {cheapest_flight.baglimit_personal_item_width}")
+print(f"availability_seats: {cheapest_flight.availability_seats}")
+print(f"routes_outbound_from: {cheapest_flight.routes_outbound_from}")
+print(f"routes_outbound_to: {cheapest_flight.routes_outbound_to}")
+print(f"routes_inbound_from: {cheapest_flight.routes_inbound_from}")
+print(f"routes_inbound_to: {cheapest_flight.routes_inbound_to}")
+print(f"airlines: {cheapest_flight.airlines}")
+print(f"route_outbound_id: {cheapest_flight.route_outbound_id}")
+print(f"route_outbound_combination_id: {cheapest_flight.route_outbound_combination_id}")
+print(f"route_outbound_flyFrom: {cheapest_flight.route_outbound_flyFrom}")
+print(f"route_outbound_flyTo: {cheapest_flight.route_outbound_flyTo}")
+print(f"route_outbound_cityFrom: {cheapest_flight.route_outbound_cityFrom}")
+print(f"route_outbound_cityCodeFrom: {cheapest_flight.route_outbound_cityCodeFrom}")
+print(f"route_outbound_cityTo: {cheapest_flight.route_outbound_cityTo}")
+print(f"route_outbound_cityCodeTo: {cheapest_flight.route_outbound_cityCodeTo}")
+print(f"route_outbound_airline: {cheapest_flight.route_outbound_airline}")
+print(f"route_outbound_flight_no: {cheapest_flight.route_outbound_flight_no}")
+print(f"route_outbound_operating_carrier: {cheapest_flight.route_outbound_operating_carrier}")
+print(f"route_outbound_operating_flight_no: {cheapest_flight.route_outbound_operating_flight_no}")
+print(f"route_outbound_fare_basis: {cheapest_flight.route_outbound_fare_basis}")
+print(f"route_outbound_fare_category: {cheapest_flight.route_outbound_fare_category}")
+print(f"route_outbound_fare_classes: {cheapest_flight.route_outbound_fare_classes}")
+print(f"route_outbound_fare_family: {cheapest_flight.route_outbound_fare_family}")
+print(f"route_outbound_return: {cheapest_flight.route_outbound_return}")
+print(f"route_outbound_bags_recheck_required: {cheapest_flight.route_outbound_bags_recheck_required}")
+print(f"route_outbound_vi_connection: {cheapest_flight.route_outbound_vi_connection}")
+print(f"route_outbound_guarantee: {cheapest_flight.route_outbound_guarantee}")
+print(f"route_outbound_last_seen: {cheapest_flight.route_outbound_last_seen}")
+print(f"route_outbound_refresh_timestamp: {cheapest_flight.route_outbound_refresh_timestamp}")
+print(f"route_outbound_equipment: {cheapest_flight.route_outbound_equipment}")
+print(f"route_outbound_vehicle_type: {cheapest_flight.route_outbound_vehicle_type}")
+print(f"route_outbound_local_arrival: {cheapest_flight.route_outbound_local_arrival}")
+print(f"route_outbound_utc_arrival: {cheapest_flight.route_outbound_utc_arrival}")
+print(f"route_outbound_local_departure: {cheapest_flight.route_outbound_local_departure}")
+print(f"route_outbound_utc_departure: {cheapest_flight.route_outbound_utc_departure}")
+print(f"route_inbound_id: {cheapest_flight.route_inbound_id}")
+print(f"route_inbound_combination_id: {cheapest_flight.route_inbound_combination_id}")
+print(f"route_inbound_flyFrom: {cheapest_flight.route_inbound_flyFrom}")
+print(f"route_inbound_flyTo: {cheapest_flight.route_inbound_flyTo}")
+print(f"route_inbound_cityFrom: {cheapest_flight.route_inbound_cityFrom}")
+print(f"route_inbound_cityCodeFrom: {cheapest_flight.route_inbound_cityCodeFrom}")
+print(f"route_inbound_cityTo: {cheapest_flight.route_inbound_cityTo}")
+print(f"route_inbound_cityCodeTo: {cheapest_flight.route_inbound_cityCodeTo}")
+print(f"route_inbound_airline: {cheapest_flight.route_inbound_airline}")
+print(f"route_inbound_flight_no: {cheapest_flight.route_inbound_flight_no}")
+print(f"route_inbound_operating_carrier: {cheapest_flight.route_inbound_operating_carrier}")
+print(f"route_inbound_operating_flight_no: {cheapest_flight.route_inbound_operating_flight_no}")
+print(f"route_inbound_fare_basis: {cheapest_flight.route_inbound_fare_basis}")
+print(f"route_inbound_fare_category: {cheapest_flight.route_inbound_fare_category}")
+print(f"route_inbound_fare_classes: {cheapest_flight.route_inbound_fare_classes}")
+print(f"route_inbound_fare_family: {cheapest_flight.route_inbound_fare_family}")
+print(f"route_inbound_return: {cheapest_flight.route_inbound_return}")
+print(f"route_inbound_bags_recheck_required: {cheapest_flight.route_inbound_bags_recheck_required}")
+print(f"route_inbound_vi_connection: {cheapest_flight.route_inbound_vi_connection}")
+print(f"route_inbound_guarantee: {cheapest_flight.route_inbound_guarantee}")
+print(f"route_inbound_last_seen: {cheapest_flight.route_inbound_last_seen}")
+print(f"route_inbound_refresh_timestamp: {cheapest_flight.route_inbound_refresh_timestamp}")
+print(f"route_inbound_equipment: {cheapest_flight.route_inbound_equipment}")
+print(f"route_inbound_vehicle_type: {cheapest_flight.route_inbound_vehicle_type}")
+print(f"route_inbound_local_arrival: {cheapest_flight.route_inbound_local_arrival}")
+print(f"route_inbound_utc_arrival: {cheapest_flight.route_inbound_utc_arrival}")
+print(f"route_inbound_local_departure: {cheapest_flight.route_inbound_local_departure}")
+print(f"route_inbound_utc_departure: {cheapest_flight.route_inbound_utc_departure}")
+print(f"booking_token: {cheapest_flight.booking_token}")
+print(f"deep_link: {cheapest_flight.deep_link}")
+print(f"tracking_pixel: {cheapest_flight.tracking_pixel}")
+print(f"facilitated_booking_available: {cheapest_flight.facilitated_booking_available}")
+print(f"pnr_count: {cheapest_flight.pnr_count}")
+print(f"has_airport_change: {cheapest_flight.has_airport_change}")
+print(f"technical_stops: {cheapest_flight.technical_stops}")
+print(f"throw_away_ticketing: {cheapest_flight.throw_away_ticketing}")
+print(f"hidden_city_ticketing: {cheapest_flight.hidden_city_ticketing}")
+print(f"virtual_interlining: {cheapest_flight.virtual_interlining}")
+print(f"local_arrival: {cheapest_flight.local_arrival}")
+print(f"utc_arrival: {cheapest_flight.utc_arrival}")
+print(f"local_departure: {cheapest_flight.local_departure}")
+print(f"utc_departure: {cheapest_flight.utc_departure}")
+
+City,IATA Code,Lowest Price EUR
+Paris,PAR,240
+Berlin,BER,48
+Tokyo,TYO,558
+Sydney,SYD,634
+Istanbul,IST,109
+Kuala Lumpur,KUL,476
+New York,NYC,276
+San Francisco,SFO,299
+Cape Town,CPT,435
